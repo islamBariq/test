@@ -1,0 +1,318 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.formContainer {
+
+  margin-top: 50px;
+}
+
+.mb-30 {
+  margin-bottom: 23px;
+}
+
+.container__left {
+  width: 37%;
+}
+
+.container__left img {
+  width: 100%;
+  height: 400px;
+}
+
+.container__right {
+  width: 53%
+}
+
+.w-500 {
+  width: 500px
+}
+
+
+
+.stages .active {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(180deg, #CF9D6F 0%, #EACD66 100%);
+  border-radius: 22px;
+}
+
+.line {
+  width: 90px;
+  height: 2px;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+}
+
+.checked {
+  color: white;
+  font-size: 22px;
+}
+
+.checkedSpan {
+  color: rgba(31, 32, 65, 0.5)
+}
+
+.circle {
+  width: 44px;
+  height: 44px;
+
+  background: #FFFFFF;
+  border: 2px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+}
+
+.line2 {
+  width: 90px;
+  height: 2px;
+  left: 210.26px;
+  top: 47.44px;
+
+  background: #C4C4C4;
+}
+
+.number {
+  font-weight: bold;
+
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.chooseCar {
+  width: 400px;
+  margin-top: 24px;
+
+}
+
+.chooseCar h4 {
+  margin-bottom: 12px;
+  font-weight: bold;
+
+}
+
+
+
+.container {
+  margin-top: 12px
+}
+
+#add_car,
+#add_location {
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 82px !important;
+  color: #DAB06C;
+}
+
+.addCircle {
+  width: 120px;
+  height: 120px;
+  background: #FFD797;
+  mix-blend-mode: normal;
+  border-radius: 90%;
+  display: inline-block;
+}
+
+.addCircle:hover {
+  background-color: #ffcf83;
+}
+
+.myCar,
+.myLocation {
+  width: 200px;
+  height: 160px;
+  border: 1px solid #DAB06C;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.myCar_label,
+.myLocation_label {
+  color: #DAB06C;
+  margin-bottom: 5px;
+}
+
+.myLocation_label {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.myLocation {
+  text-align: center;
+}
+
+.myCar_model,
+.myLocation_address {
+  color: #959595;
+  margin-bottom: 5px;
+}
+
+.myCar_color {
+  margin-bottom: 5px;
+}
+
+.myPlate {
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 7px;
+}
+
+.owl-stage-outer {
+  width: 620px
+}
+
+.selected {
+  background-color: #EFEFEF;
+}
+
+.addLocation a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #120e21;
+
+}
+
+.addLocation {
+  margin-top: 11px;
+}
+
+.addLocation a:hover {
+  color: #DAB06C
+}
+
+.orderNow {
+  width: 100%;
+}
+
+.order-button {
+  display: inline-block;
+  background-color: none;
+  text-decoration: none;
+  width: 100%;
+  height: 54px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  border-radius: 8px;
+  background: #dab06c;
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+
+
+}
+
+.order-button:hover {
+  background-color: white;
+  transition: none;
+  color: #dab06c;
+  border: 1px solid #dab06c;
+}
+
+
+@media(max-width:767px) {
+  .container__left {
+    display: none !important
+  }
+
+  .container__right {
+    width: 100%;
+  }
+
+
+  .w-500 {
+    width: 100%
+  }
+
+
+  .formContainer {
+    margin-top: 0px;
+  }
+
+
+
+  .mb-30 {
+    margin-bottom: 15px;
+  }
+
+  .chooseCar {
+    margin-top: 0px
+  }
+
+  .container {
+    margin-top: 23px
+  }
+
+  /* html {
+    height: 100vh;
+  }
+
+  body {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .wave:nth-child(2) {
+    position: relative;
+    bottom: 0px;
+  } */
+
+
+  /* .formContainer {
+    margin-top: 30px;
+  } */
+}
+
+@media(max-width:1024px) {
+  .owl-stage-outer {
+    width: 412px
+  }
+
+}
+
+@media(max-width:400px) {
+  .owl-stage-outer {
+    width: 315px
+  }
+
+  .chooseCar {
+    width: 100%;
+  }
+
+  .myCar,
+  .myLocation {
+    width: 150px;
+  }
+
+  .line,
+  .line2 {
+    width: 70px
+  }
+
+
+  /* body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  } */
+
+  /* .wave:nth-child(2) {
+    position: relative;
+    bottom: 0px;
+  } */
+
+}
+
+@media(min-width:768px) {
+  .wave {
+    display: none;
+  }
+}
