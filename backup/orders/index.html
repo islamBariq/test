@@ -13,8 +13,13 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400&family=Red+Hat+Display:ital,wght@0,300;0,400;1,500&display=swap"
     rel="stylesheet" />
-<link rel="stylesheet" href="./css/owl.carousel.min.css">
-<link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <!-- bootstrap arabic -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous"> -->
+  <!-- arabic style file -->
+  <!-- <link rel="stylesheet" href="../public/style-arabic.css"> -->
+
   <title>Order now</title>
 </head>
 
@@ -95,7 +100,7 @@
       </div>
     </div>
     <!-- testttt -->
-    <div class="cardContainer hideCarousel " >
+    <div class="cardContainer hideCarousel ">
       <div class="owl-carousel owl-theme">
         <div class="Card item">
           <div class="header d-flex align-items-end">
@@ -111,13 +116,13 @@
               <button class="monthly_7">7</button>
               <button class="monthly_6">6</button>
               <button class="monthly_5">5</button>
-  
+
             </div>
             <div class="second d-flex justify-content-between">
               <button class="monthly_4">4</button>
               <button class="monthly_3 selected">3</button>
               <button class="monthly_2">2</button>
-  
+
             </div>
           </div>
           <button class="btn-submit">Order now</button>
@@ -137,9 +142,9 @@
               <button class="package_10">10</button>
               <button class="package_15">15</button>
               <button class="package_20">20</button>
-  
+
             </div>
-  
+
           </div>
           <button class="btn-submit">Order now</button>
         </div>
@@ -151,18 +156,18 @@
           <div class="body">
             <h6>Basic package</h6>
             <h6> </h6>
-  
+
           </div>
           <div class="counts">
             <div class="omeTime">
               One time order
             </div>
-  
+
           </div>
           <button class="btn-submit">Order now</button>
         </div>
       </div>
-     
+
     </div>
   </div>
 
@@ -179,18 +184,17 @@
   </script>
   <script src="./js/jquery.js"></script>
   <script src="./js/owl.carousel.min.js"></script>
-<script>
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        margin: 10,
+        loop: false,
+        autoWidth: true,
+        items: 2
+      })
 
-$(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
-      margin: 10,
-      loop: false,
-      autoWidth: true,
-      items: 2
-    })
-
-  });
-</script>
+    });
+  </script>
 </body>
 
 </html>

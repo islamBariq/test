@@ -1,7 +1,0 @@
-body {
-    direction: rtl;
-}
-
-.invoice .body:first-child {
-    text-align: right;
-}

@@ -118,8 +118,9 @@ bottom: 30.78%; */
 }
 @media(max-width:768px) {
   .Card {
-    width: 250px;
+    width: 235px;
   }
+  
   .header h1 {
     font-size: 25px;
   }

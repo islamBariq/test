@@ -48,7 +48,10 @@ bottom: 30.78%; */
   border: 1px solid #dab06c;
 }
 
-
+.container {
+  height: 600px;
+  align-items: center;
+}
 .verify {
   width: 47px;
   height: 52px;
@@ -135,6 +138,10 @@ font-size: 20px;
 .mb-16 {
   margin-bottom: 16px;
 }
+.currentStage {
+  font-weight: bold;
+}
+ 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -186,8 +193,10 @@ input[type=number] {
   .btn-submit {
     margin-top: 30px;
   }
-
-  html {
+.stages {
+  margin-bottom: 30px;
+}
+  /* html {
     height: 100vh;
   }
 
@@ -201,7 +210,7 @@ input[type=number] {
   .wave:nth-child(2) {
     position: relative;
     bottom: 0px;
-  }
+  } */
 
   .verifyContainer {
     width: 300px
@@ -225,7 +234,7 @@ input[type=number] {
   }
 
 
-  body {
+  /* body {
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -235,7 +244,7 @@ input[type=number] {
   .wave:nth-child(2) {
     position: relative;
     bottom: 0px;
-  }
+  } */
 
 }
 
