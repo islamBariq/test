@@ -1,0 +1,1 @@
+sass --watch /Users/mac/Desktop/websites/suupa-clean/assets/scss:/Users/mac/Desktop/websites/suupa-clean/assets/css --style=compressed
