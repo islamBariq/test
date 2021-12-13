@@ -53,8 +53,8 @@ h4 {
     font-size: 18px;
     text-align: center;
     /* position: absolute;
-top: 63.39%;
-bottom: 30.78%; */
+    top: 63.39%;
+    bottom: 30.78%; */
     margin-top: 30px;
 }
 
@@ -108,23 +108,22 @@ bottom: 30.78%; */
 
 .buttonsContainer {
     width: 78%;
-    margin-top: 11px
-}
+    margin-top: 11px;
 
-.buttonsContainer a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-.buttonsContainer a img {
-    width: 35px;
-    margin-right: 5px;
+        img {
+            width: 35px;
+            margin-right: 5px;
+        }
+    }
 }
 
 .signUp {
     margin-top: 30px;
-
 }
 
 .signUp_link {
@@ -135,11 +134,12 @@ bottom: 30.78%; */
 
 .container__left {
     width: 37%;
+
+    img {
+        width: 100%
+    }
 }
 
-.container__left img {
-    width: 100%
-}
 
 .container__right {
     width: 53%
@@ -307,4 +307,3 @@ bottom: 30.78%; */
         display: none;
     }
 }
-
